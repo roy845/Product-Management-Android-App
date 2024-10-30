@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_products"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_people"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:windowSoftInputMode="adjustPan|stateHidden"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.activity.ArchivedProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.GraphsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.ErrorLoadingProducts"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="false" />
+        <activity
+            android:name=".ui.activity.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

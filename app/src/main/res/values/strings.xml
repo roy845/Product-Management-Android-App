@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Products Management</string>
+    <string name="welcome_dialog_title">Products Management App</string>
+    <string name="fab_description">Add Product</string>
+    <string name="delete_all">Delete all products</string>
+    <string name="delete_selected_products">Delete selected products</string>
+    <string name="search_hint">Search products…</string>
+    <string name="empty_results_description">Empty Results Image</string>
+    <string name="no_search_results_found">No search results found!</string>
+    <string name="no_products_found">No products found!</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="error_image_description">Error Image description</string>
+    <string name="title_edit_text_hint">Enter Your Title</string>
+    <string name="price_edit_text_hint">Enter Your Price ($)</string>
+    <string name="category_edit_text_hint">Enter Your Category</string>
+    <string name="description_edit_text_hint">Enter Your Description</string>
+    <string name="label_email_edit_text_hint">Email</string>
+    <string name="label_title_edit_text_hint">Title</string>
+    <string name="label_price_edit_text_hint">Price</string>
+    <string name="label_category_edit_text_hint">Category</string>
+    <string name="label_description_edit_text_hint">Description</string>
+    <string name="cancel_btn_text">Cancel</string>
+    <string name="add_btn_text">Add</string>
+    <string name="update_btn_text">Update</string>
+    <string name="retry"> Retry</string>
+    <string name="error_missing_email">*missing email</string>
+    <string name="error_invalid_email">*invalid email</string>
+    <string name="error_invalid_title">*missing title</string>
+    <string name="error_invalid_price">*missing price</string>
+    <string name="error_invalid_price_invalid">*invalid price</string>
+    <string name="error_invalid_category">*missing category</string>
+    <string name="error_invalid_description">*missing description</string>
+    <string name="error_missing_avatar">*missing avatar</string>
+    <string name="general_feedback">*User already exists</string>
+    <string name="checkBoxTxt">OK, please do not show me again.</string>
+    <string name="modal_header">Products management App</string>
+    <string name="add_new_product_title">Add New Product</string>
+    <string name="update_product_title">Edit Product</string>
+    <string name="load_more_btn_txt">Load</string>
+    <string name="error_loading_users_title">Error Loading Products</string>
+    <string name="welcome_dialog_message">Welcome to <b>Easy-Sale Product Management!</b><br /><br />
+    Manage your products effortlessly with our easy-to-use application.\n\nHere’s what you can do:\n\n
+    <b>● View Products:</b> Browse through the list of products fetched directly from the products API.\n\n
+    <b>● Add New Products:</b> Easily add new products to your list with just a few clicks.\n\n
+    <b>● Edit Product Details:</b> Keep product information up to date with our simple edit functionality.\n\n
+    <b>● Delete Products:</b> Remove products from your list whenever necessary.\n\n
+    <b>● Delete ALL Products:</b> Remove ALL products from your list whenever necessary.\n\n
+    <b>● Search Products:</b> Quickly find products by name using our search feature.\n\n
+    <b>● View graphs:</b> Browse through graphs of product related data.\n\n
+    Get started now and experience seamless product management!\n\n
+    </string>
+    <string name="ok">OK</string>
+    <string name="delete_btn_txt">Delete</string>
+    <string name="archive_btn_txt">Archive</string>
+    <string name="unarchive_btn_txt">Unarchive</string>
+    <string name="learn_more">Learn More</string>
+    <string name="lets_go">Let’s Go</string>
+    <string name="dialogImageRecyclerView">dialog Image Recycler View</string>
+    <string name="infoIconRecyclerView">info Icon Recycler View</string>
+    <string name="switch_to_list">Switch to list view</string>
+    <string name="switch_to_grid">Switch to grid view</string>
+    <string name="unexpected_error_occured">*An unexpected error occurred</string>
+    <string name="createdAt">Created At</string>
+    <string name="updatedAt">Updated At</string>
+    <string name="graphs">Graphs</string>
+    <string name="archived_products">Archive</string>
+    <string name="new_users_graph_y_axis">New Products</string>
+    <string name="daily_usage_graph_y_axis">Usage in minutes</string>
+    <string name="new_users_graph_header"> New Products Per Month</string>
+    <string name="daily_usage_graph_header"> Daily usage in minutes</string>
+    <string name="select_week_placeholder">Select a week</string>
+    <string name="no_results_found">No Results Found</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="page_separator">/</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="home">Home</string>
+    <string name="title_nav_header">Easy Sale</string>
+    <string name="email_nav_header">easysale@android.com</string>
+    <string name="add_new_product_image">add new product image</string>
+    <string name="upload_new_product_image">upload new product image</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_image">Product Image</string>
+    <string-array name="sort_options">
+        <item>Sort by ID asc</item>
+        <item>Sort by ID desc</item>
+        <item>Sort by date asc</item>
+        <item>Sort by date desc</item>
+        <item>Sort by name asc</item>
+        <item>Sort by name desc</item>
+    </string-array>
+</resources>
